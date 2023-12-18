@@ -1,0 +1,5 @@
+# wikipedia-rss
+
+The location of a brick-and-mortar business is one of the crucial ingredients for its success. Therefore the choice of selecting a retail site should be supported by empirical evidence and not by gut feeling. Prior approaches make use of very aggregated data like customer surveys or census data and more modern approaches make use of data from location-based social networks and Machine Learning, to try to estimate the popularity of a possible venue. This paper introduces a new datatype to quantify the location for retail site selection: geolocated Text. This paper shows that using geolocated Text can rival and even improve prior feature sets by up to 4.2%. A framework to automatically extract spatially weighted vector representations of the environment using state-of-theart Transformer architectures is proposed and evaluated on check-in data for bars in New York City.
+
+This repository contains the code to recreate the experiments and visualize the data. The notebooks should be run in the following order: "download_\*.ipynb" -> "features_\*.ipynb" -> "ML_\*.ipynb" -> "visualizations.ipynb"
